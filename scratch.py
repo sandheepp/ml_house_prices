@@ -27,3 +27,9 @@ df_train = pd.read_csv('input/train.csv')
 
 #print train columns
 print(df_train.columns)
+
+
+
+#histogram
+sns.distplot(df_train['SalePrice']);
+
